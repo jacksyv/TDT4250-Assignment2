@@ -6,7 +6,7 @@
 
 
 #### Query the servlet
-Query the servlet by entering URLs in this format: http://localhost:8080/convert?v=88&from=Kg&to=lb.
+Query the servlet by entering URLs in this format: http://localhost:8080/convert?v=88&from=Kg&to=lb
 
 #### Gogo shell
 - `list` will show available commands with instructions on how to use them.
