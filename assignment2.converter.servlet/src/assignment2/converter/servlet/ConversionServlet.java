@@ -77,7 +77,7 @@ public class ConversionServlet extends HttpServlet implements Servlet {
 		response.setContentType("text/plain");
 		PrintWriter writer = response.getWriter();
 		writer.println("--- Conversion from " + startUnit + " to " + endUnit + " ---");
-		writer.println(value + " " + startUnit + " = " + result.getMessage() + " " + endUnit);
+		writer.println("\t\t" + result.getMessage());
 	}
 	
 
